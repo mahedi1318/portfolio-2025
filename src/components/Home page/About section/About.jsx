@@ -16,7 +16,7 @@ const About = () => {
                             <div className="flex items-center justify-start outfit text-[16px] font-normal mb-3">
                                 <span className='flex-none basis-[90px] text-[#aeaeb1]'>Phone</span>
                                 <span className='flex-none basis-[70px]'>:</span>
-                                <span>01605528981</span>
+                                <span>+880 1605-528981</span>
                             </div>
                             <div className="flex items-center justify-start outfit text-[16px] font-normal mb-3">
                                 <span className='flex-none basis-[90px] text-[#aeaeb1]'>Email</span>
