@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* -------------------------------------- */
+
+
+/* ***************************** */
+.container{
+  max-width: 1320px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+.navbar {
+  padding: 0.8rem;  
+  border-radius: 10px;
+}
+
+.btn.btn-ghost.lg\:hidden{
+  background-color: #fff;
+}
