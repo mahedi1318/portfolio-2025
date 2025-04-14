@@ -3,7 +3,7 @@ import aboutImg from "../../../assets/images/ab-3.jpg"
 
 const About = () => {
   return (
-    <div className='bg-[#0a090d] w-full py-20'>     
+    <div id='about' className='bg-[#0a090d] w-full py-20'>     
         <div className="container">
             <div className="grid grid-cols-3 gap-[25px]">
                 <div className="col-span-2">

@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 
 const Contact = () => {
   return (
-    <div className='bg-[#0a090d] py-[50px]'>
+    <div id='contact' className='bg-[#0a090d] py-[50px]'>
       <div className="container">
         <div className="grid grid-cols-4 gap-[30px]">
             <div className="text-white">

@@ -54,7 +54,7 @@ const Skills = () => {
     ]
 
   return (
-    <div className='bg-[#0a090d] py-[50px]'>
+    <div id='skill' className='bg-[#0a090d] py-[50px]'>
       <div className="container">
         <div className="bg-[#141317] px-[30px] py-[30px] border border-[#222426] rounded-2xl">
             <span className='outfit text-[18px] font-medium rounded-md px-5 py-2 border border-white inline text-[#fff]'>Skills & Tools</span>

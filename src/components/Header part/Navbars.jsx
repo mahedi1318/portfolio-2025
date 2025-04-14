@@ -1,27 +1,32 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router'
+// import { Link,  } from 'react-router'
+import { Link } from 'react-scroll'
+
 
 const Navbars = () => {
 
     let links = (
         <>
-        <li>
-            <NavLink to="/">Home</NavLink>
+        <li className='hover:text-[#9747ff]'>
+            <Link to="hero" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
         </li>
-        <li>
-            <NavLink to="/about">About</NavLink>
+        <li className='hover:text-[#9747ff]'>
+            <Link to="about" spy={true} smooth={true} offset={-100} duration={500} >About</Link>
         </li>
-        <li>
-            <NavLink to="/work">Work</NavLink>
+        <li className='hover:text-[#9747ff]'>
+            <Link to="skill" spy={true} smooth={true} offset={-100} duration={500} >Skills</Link>
         </li>
-        <li>
-            <NavLink to="/contact">Contact</NavLink>
+        <li className='hover:text-[#9747ff]'>
+            <Link to="work" spy={true} smooth={true} offset={-100} duration={500}>Works</Link>
+        </li>
+        <li className='hover:text-[#9747ff]'>
+            <Link to="contact" spy={true} smooth={true} offset={-150} duration={500}>Contact</Link>
         </li>
         </>
     )
 
   return (
-    <div className='bg-[#0a090d] py-5'>
+    <div className='bg-[#0a090d] py-5 fixed top-0 left-0 w-full'>
       <div className="navbar bg-[#161518] shadow-sm container">
         <div className="navbar-start">
             <div className="dropdown">
@@ -31,20 +36,20 @@ const Navbars = () => {
             </div>
             <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow outfit text-[16px] font-semibold">
                 {links}
             </ul>
             </div>
-            <Link to="/" className="text-white ml-[10%] lg:ml-[0%]  ">Mahedi</Link>
+            <Link to="hero" spy={true} smooth={true} offset={-100} duration={1500} className="text-white ml-[10%] lg:ml-[0%] outfit text-[28px] font-semibold cursor-pointer">Mahe<span className='text-[#9747ff]'>di</span></Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 text-white outfit">
+            <ul className="menu menu-horizontal px-1 text-white outfit text-[16px] font-medium">
                 {links}
             </ul>
         </div>
         <div className="navbar-end flex gap-3"> 
-            <Link to="/contact" className="px-5 py-3 bg-[#9747ff] outfit text-[15px] font-semibold rounded-lg">Download CV</Link>
-            <Link to="/contact" className="px-5 py-3 bg-[#9747ff] outfit text-[15px] font-semibold rounded-lg">Let’s Talk</Link>
+            <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className="px-5 py-3 bg-[#9747ff] outfit text-[15px] font-semibold rounded-lg text-white cursor-pointer">Download CV</Link>
+            <Link to="contact" spy={true} smooth={true} offset={-150} duration={500} className="px-5 py-3 bg-[#9747ff] outfit text-[15px] font-semibold rounded-lg text-white cursor-pointer">Let’s Talk</Link>
         </div>
         </div> 
     </div>

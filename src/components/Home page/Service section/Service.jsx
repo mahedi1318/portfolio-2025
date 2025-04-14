@@ -2,7 +2,7 @@ import React from 'react'
 
 const Service = () => {
   return (
-    <div className='bg-[#0a090d] py-[50px]'>
+    <div id='service' className='bg-[#0a090d] py-[50px]'>
       <div className="container">
         <span className='outfit text-[18px] font-medium rounded-md px-5 py-2 border border-white inline text-[#fff]'>Service</span>
         <h2 className='mt-8 outfit text-[35px] font-bold text-[#fff]'>My Quality Services</h2>

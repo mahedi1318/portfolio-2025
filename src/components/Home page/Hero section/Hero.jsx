@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 
 const Hero = () => {
   return (
-    <div className='bg-[#0a090d] pt-20 pb-20'>
+    <div id='hero' className='bg-[#0a090d] pt-20 pb-20'>
         <div className="container">
         <div className="">
             <div className="text-white">
