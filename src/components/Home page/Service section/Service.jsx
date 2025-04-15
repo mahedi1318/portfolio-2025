@@ -6,7 +6,7 @@ const Service = () => {
       <div className="container">
         <span className='outfit text-[18px] font-medium rounded-md px-5 py-2 border border-white inline text-[#fff]'>Service</span>
         <h2 className='mt-8 outfit text-[35px] font-bold text-[#fff]'>My Quality Services</h2>
-        <div className="grid grid-cols-3 gap-[30px] mt-8">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-[30px] mt-8">
             <div className="w-full px-[25px] pt-[40px] pb-[60px] bg-[#141317] rounded-2xl">
                 <h3 className='outfit text-[28px] font-semibold text-[#fff]'>Website Design</h3>
                 <ul className='mt-5'>

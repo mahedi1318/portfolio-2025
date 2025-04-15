@@ -11,10 +11,10 @@ const WorkProject = () => {
     <div id='work' className='bg-[#0a090d] py-[50px]'>
       <div className="container">
         <span className='outfit text-[18px] font-medium rounded-md px-5 py-2 border border-white inline text-[#fff]'>All Project</span>
-        <div className="grid grid-cols-3 gap-[25px] mt-16">
-            <div className="py-[20px] px-[20px] border rounded-xl">
+        <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-[25px] mt-16">
+            <div className="py-[20px] px-[20px] border rounded-xl group">
                 <div className="w-full h-[250px] overflow-hidden rounded-xl">
-                    <img src={project1} alt="" />
+                    <img className=' group-hover:scale-125 transition-all duration-300' src={project1} alt="" />
                 </div>
                 <div className="mt-7">
                     <h3 className='outfit text-[20px] font-semibold text-white'>Project 1</h3>
@@ -25,9 +25,9 @@ const WorkProject = () => {
                     </div>
                 </div>
             </div>
-            <div className="py-[20px] px-[20px] border rounded-xl">
+            <div className="py-[20px] px-[20px] border rounded-xl group">
                 <div className="w-full h-[250px] overflow-hidden rounded-xl">
-                    <img src={project2} alt="" />
+                    <img className=' group-hover:scale-125 transition-all duration-300' src={project2} alt="" />
                 </div>
                 <div className="mt-7">
                     <h3 className='outfit text-[20px] font-semibold text-white'>Project 1</h3>
@@ -38,9 +38,9 @@ const WorkProject = () => {
                     </div>
                 </div>
             </div>
-            <div className="py-[20px] px-[20px] border rounded-xl">
+            <div className="py-[20px] px-[20px] border rounded-xl group">
                 <div className="w-full h-[250px] overflow-hidden rounded-xl">
-                    <img src={project3} alt="" />
+                    <img className=' group-hover:scale-125 transition-all duration-300' src={project3} alt="" />
                 </div>
                 <div className="mt-7">
                     <h3 className='outfit text-[20px] font-semibold text-white'>Project 1</h3>
@@ -51,9 +51,9 @@ const WorkProject = () => {
                     </div>
                 </div>
             </div>
-            <div className="py-[20px] px-[20px] border rounded-xl">
+            <div className="py-[20px] px-[20px] border rounded-xl group">
                 <div className="w-full h-[250px] overflow-hidden rounded-xl">
-                    <img src={project4} alt="" />
+                    <img className=' group-hover:scale-125 transition-all duration-300' src={project4} alt="" />
                 </div>
                 <div className="mt-7">
                     <h3 className='outfit text-[20px] font-semibold text-white'>Project 1</h3>
@@ -64,9 +64,9 @@ const WorkProject = () => {
                     </div>
                 </div>
             </div>
-            <div className="py-[20px] px-[20px] border rounded-xl">
+            <div className="py-[20px] px-[20px] border rounded-xl group">
                 <div className="w-full h-[250px] overflow-hidden rounded-xl">
-                    <img src={project5} alt="" />
+                    <img className=' group-hover:scale-125 transition-all duration-300' src={project5} alt="" />
                 </div>
                 <div className="mt-7">
                     <h3 className='outfit text-[20px] font-semibold text-white'>Project 1</h3>

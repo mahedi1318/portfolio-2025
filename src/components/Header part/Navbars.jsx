@@ -47,7 +47,7 @@ const Navbars = () => {
                 {links}
             </ul>
         </div>
-        <div className="navbar-end flex gap-3"> 
+        <div className="navbar-end lg:flex gap-3 hidden"> 
             <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className="px-5 py-3 bg-[#9747ff] outfit text-[15px] font-semibold rounded-lg text-white cursor-pointer">Download CV</Link>
             <Link to="contact" spy={true} smooth={true} offset={-150} duration={500} className="px-5 py-3 bg-[#9747ff] outfit text-[15px] font-semibold rounded-lg text-white cursor-pointer">Let’s Talk</Link>
         </div>
