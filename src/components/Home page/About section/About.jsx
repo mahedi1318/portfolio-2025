@@ -19,8 +19,8 @@ const About = () => {
                                 <span className='text-[#fff]'>+880 1605-528981</span>
                             </div>
                             <div className="flex items-center justify-start outfit text-[14px] md:text-[16px] font-normal mb-3">
-                                <span className='flex-none basis-[90px] text-[#aeaeb1]'>Email</span>
-                                <span className='flex-none basis-[32px] text-[#fff]'>:</span>
+                                <span className='flex-none basis-[52px] md:basis-[90px] text-[#aeaeb1]'>Email</span>
+                                <span className='flex-none basis-[32px] md:basis-[32px] text-[#fff]'>:</span>
                                 <span className='text-[#fff]'>mahedihasan7784@gmail.com</span>
                             </div>    
                             <div className="flex items-center justify-start outfit text-[16px] font-normal">
