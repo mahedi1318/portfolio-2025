@@ -43,7 +43,7 @@ const Navbars = () => {
             <Link to="hero" spy={true} smooth={true} offset={-100} duration={1500} className="text-white ml-[10%] lg:ml-[0%] outfit text-[28px] font-semibold cursor-pointer">Mahe<span className='text-[#9747ff]'>di</span></Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 text-white outfit text-[16px] font-medium">
+            <ul className="menu menu-horizontal px-1 text-white outfit text-[22px] font-medium">
                 {links}
             </ul>
         </div>

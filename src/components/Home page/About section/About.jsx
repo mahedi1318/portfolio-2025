@@ -9,7 +9,7 @@ const About = () => {
                 <div className="md:col-span-2">
                     <div className="bg-[#141317] md:px-[30px] px-[15px] py-[30px] border border-[#222426] rounded-2xl">
                         <span className='outfit text-[18px] font-medium rounded-md px-5 py-2 border border-white inline text-[#fff]'>About Me</span>                      
-                        <h2 className='mt-8 outfit text-[35px] font-bold text-[#fff]'>Hello, I’m Front-end Developer.</h2>
+                        <h2 className='mt-8 outfit text-[20px] md:text-[35px] font-bold text-[#fff]'>Hello, I’m Front-end Developer.</h2>
                         <p className='outfit text-[17px] font-medium mt-5 text-[#aeaeb1]'>As a skilled Frontend development expert, my diverse background has allowed me to apply my talents across different 
                             fields and industries, demonstrating adaptability and versatility.</p>
                         <div className="mt-10">
@@ -33,7 +33,7 @@ const About = () => {
                 </div>
                 <div className="">
                     <div className="bg-[#141317] px-[30px] py-[40px] flex justify-center items-center border border-[#222426] rounded-2xl">
-                        <div className="w-[300px] h-[300px] mx-auto rounded-full bg-amber-400 flex justify-center items-center">
+                        <div className="w-[220px] md:w-[300px] h-[220px] md:h-[300px] mx-auto rounded-full bg-amber-400 flex justify-center items-center">
                             <img className='w-full h-full object-cover rounded-full' src={aboutImg} alt="" />
                         </div>
                     </div>
