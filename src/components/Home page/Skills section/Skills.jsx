@@ -22,6 +22,9 @@ const Skills = () => {
             name: "React JS", 
         },
         {
+            name: "Next JS", 
+        },
+        {
             name: "Context API", 
         },
         {
@@ -31,7 +34,7 @@ const Skills = () => {
             name: "Firebase", 
         },
         {
-            name: "Webflow", 
+            name: "Webflow (CMS, Interactions, Animations)", 
         },
         {
             name: "PSD to HTML", 
