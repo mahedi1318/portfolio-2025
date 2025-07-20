@@ -53,21 +53,21 @@ const Contact = () => {
                         <div className="lg:flex justify-between gap-3 text-white lg:mb-10 mb-5">
                             <div className="w-full">
                                 <label className='block mb-3' htmlFor="">Name</label>
-                                <input className='w-[100%] h-[50px] pl-[20px] border border-[#222426] rounded-lg' type="text" placeholder='Your name' required/>
+                                <input className='w-[100%] h-[50px] pl-[20px] border border-[#222426] rounded-lg' name='name' type="text" placeholder='Your name' required/>
                             </div>
                             <div className="w-full mt-5 lg:mt-0">
                                 <label className='block mb-3' htmlFor="">Email</label>
-                                <input className='w-[100%] h-[50px] pl-[20px] border border-[#222426] rounded-lg' type="text" placeholder='Your email' required/>
+                                <input className='w-[100%] h-[50px] pl-[20px] border border-[#222426] rounded-lg' name='email' type="text" placeholder='Your email' required/>
                             </div>
                         </div>
                         <div className="lg:flex sm:block justify-between gap-3 text-white">
                             <div className="w-full">
                                 <label className='block mb-3' htmlFor="">Phone</label>
-                                <input className='w-[100%] h-[50px] pl-[20px] border border-[#222426] rounded-lg' type="text" placeholder='Your Phone' required/>
+                                <input className='w-[100%] h-[50px] pl-[20px] border border-[#222426] rounded-lg' name='phone' type="text" placeholder='Your Phone' required/>
                             </div>
                             <div className="w-full mt-5 lg:mt-0">
                                 <label className='block mb-3' htmlFor="">Subject</label>
-                                <input className='w-[100%] h-[50px] pl-[20px] border border-[#222426] rounded-lg' type="text" placeholder='Your Subject' required/>
+                                <input className='w-[100%] h-[50px] pl-[20px] border border-[#222426] rounded-lg' name='subject' type="text" placeholder='Your Subject' required/>
                             </div>
                         </div>
                         <div className="mt-4 md:mt-10 text-white">

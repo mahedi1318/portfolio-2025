@@ -89,7 +89,7 @@ const WorkProject = () => {
           <button
             onClick={() => setFilter("all")}
             className={`outfit text-[18px] font-medium rounded-md px-5 py-2 border ${
-              filter === "all" ? "bg-[#9747ff] border-0 text-white" : "text-[#fff] border-white"
+              filter === "all" ? "bg-[#9747ff] border-0 text-white" : "text-[#fff] border-white hover:bg-[#9747ff] hover:border-[#9747ff]"
             }`}
           >
             All Projects
@@ -97,7 +97,7 @@ const WorkProject = () => {
           <button
             onClick={() => setFilter("custom")}
             className={`outfit text-[18px] font-medium rounded-md px-5 py-2 border ${
-              filter === "custom" ? "bg-[#9747ff] border-0 text-white" : "text-[#fff] border-white"
+              filter === "custom" ? "bg-[#9747ff] border-0 text-white" : "text-[#fff] border-white hover:bg-[#9747ff] hover:border-[#9747ff]"
             }`}
           >
             Custom Code
@@ -105,10 +105,26 @@ const WorkProject = () => {
           <button
             onClick={() => setFilter("webflow")}
             className={`outfit text-[18px] font-medium rounded-md px-5 py-2 border ${
-              filter === "webflow" ? "bg-[#9747ff] border-0 text-white" : "text-[#fff] border-white"
+              filter === "webflow" ? "bg-[#9747ff] border-0 text-white" : "text-[#fff] border-white hover:bg-[#9747ff] hover:border-[#9747ff]"
             }`}
           >
             Webflow
+          </button>
+          <button
+            onClick={() => setFilter("Framer")}
+            className={`outfit text-[18px] font-medium rounded-md px-5 py-2 border ${
+              filter === "Framer" ? "bg-[#9747ff] border-0 text-white" : "text-[#fff] border-white hover:bg-[#9747ff] hover:border-[#9747ff]"
+            }`}
+          >
+            Framer
+          </button>
+          <button
+            onClick={() => setFilter("Wix")}
+            className={`outfit text-[18px] font-medium rounded-md px-5 py-2 border ${
+              filter === "Wix" ? "bg-[#9747ff] border-0 text-white" : "text-[#fff] border-white hover:bg-[#9747ff] hover:border-[#9747ff]"
+            }`}
+          >
+            Wix
           </button>
         </div>
 
@@ -138,7 +154,7 @@ const WorkProject = () => {
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 border border-[#ccc] rounded-lg text-white outfit font-medium"
+                    className="px-4 py-2 border border-[#ccc] rounded-lg text-white outfit font-medium hover:bg-[#9747ff] hover:border-[#9747ff] transition-all duration-300"
                   >
                     View Project
                   </a>

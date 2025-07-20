@@ -33,7 +33,7 @@ const About = () => {
                 </div>
                 <div className="">
                     <div className="bg-[#141317] px-[30px] py-[40px] flex justify-center items-center border border-[#222426] rounded-2xl">
-                        <div className="w-[220px] md:w-[300px] h-[220px] md:h-[300px] mx-auto rounded-full bg-amber-400 flex justify-center items-center">
+                        <div className="w-[220px] md:w-[300px] h-[220px] md:h-[300px] mx-auto rounded-full flex justify-center items-center">
                             <img className='w-full h-full object-cover rounded-full' src={aboutImg} alt="" />
                         </div>
                     </div>
