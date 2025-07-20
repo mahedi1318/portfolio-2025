@@ -16,7 +16,7 @@ const About = () => {
                             <div className="flex items-center justify-start outfit text-[16px] font-normal mb-3">
                                 <span className='flex-none basis-[90px] text-[#aeaeb1]'>Phone</span>
                                 <span className='flex-none basis-[32px] text-[#fff]'>:</span>
-                                <span className='text-[#fff]'>+880 1605-528981</span>
+                                <span className='text-[#fff]'>+880-1605-528981</span>
                             </div>
                             <div className="flex items-center justify-start outfit text-[14px] md:text-[16px] font-normal mb-3">
                                 <span className='flex-none basis-[52px] md:basis-[90px] text-[#aeaeb1]'>Email</span>
@@ -46,11 +46,11 @@ const About = () => {
                         <p className='outfit text-[18px] font-normal mt-3 text-[#aeaeb1] '>YEARS EXPERIENCE</p>
                     </div>
                     <div className="text-center">
-                        <span className='outfit text-[40px] font-bold text-[#fff]'>60+</span>
+                        <span className='outfit text-[40px] font-bold text-[#fff]'>140+</span>
                         <p className='outfit text-[18px] font-normal mt-3 text-[#aeaeb1] '>TOTAL PROJECTS</p>
                     </div>
                     <div className="text-center">
-                        <span className='outfit text-[40px] font-bold text-[#fff]'>10</span>
+                        <span className='outfit text-[40px] font-bold text-[#fff]'>30</span>
                         <p className='outfit text-[18px] font-normal mt-3 text-[#aeaeb1] '>CLIENT PROJECT</p>
                     </div>
                     <div className="text-center">

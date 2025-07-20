@@ -37,6 +37,12 @@ const Skills = () => {
             name: "Webflow (CMS, Interactions, Animations)", 
         },
         {
+            name: "Framer", 
+        },
+        {
+            name: "Wix", 
+        },
+        {
             name: "PSD to HTML", 
         },
         {

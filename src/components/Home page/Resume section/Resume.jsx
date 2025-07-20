@@ -16,7 +16,7 @@ const Resume = () => {
                 </div>
                 <div className="mt-10 group">
                     <span className='outfit text-[16px] font-normal text-[#aeaeb1] group-hover:text-[#9747ff]'>2022 - 2024</span>
-                    <p className='outfit text-[25px] font-semibold mt-3 text-[#ccc]'>Front-End Developer</p>
+                    <p className='outfit text-[25px] font-semibold mt-3 text-[#ccc]'>React & Next js Developer</p>
                     <h4 className='outfit text-[18px] font-normal mt-1 text-[#aeaeb1]'>Creative IT</h4>
                 </div>
                 <div className="lg:mt-10 md:mt-4 group">
